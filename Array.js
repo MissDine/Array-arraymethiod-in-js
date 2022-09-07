@@ -15,3 +15,12 @@ numbers.forEach((number)=>{
 console.log(sum);
 // Number of times a letter appears in an array
 const letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "a"]
+let count = {}
+letters.forEach((letter)=>{
+    if(count[letter]){
+        count[letter] ++
+    }else{
+        count[letter]=1
+    }
+})
+console.log(count);
