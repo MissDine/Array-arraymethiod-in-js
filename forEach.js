@@ -1,7 +1,7 @@
 // Array-A list of items 
 // Array mathods
 
-// .forEach() 
+// .forEach()- 
 const numbers = [1,2,3,4,5,6]
 console.log(numbers);
 numbers.forEach((number, index, arr)=>{
