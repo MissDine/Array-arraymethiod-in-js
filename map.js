@@ -14,3 +14,8 @@ const items = [{name:"laptop", price:1000, count:5},{name:"desktop",price: 3000,
 const totalProductsValue = items.map((item)=>{
     console.log(item.name, item.price*item.count);
 })
+
+// Converting an array of string numbers to an array of numbers
+const StrNumbers = ["1", "2", "3", "4", "5", "6", "7"]
+const Numbers = StrNumbers.map(Number)
+console.log(Numbers);
