@@ -11,3 +11,12 @@ console.log(odd);
 const people = [{name: 'John', age:20},{name: 'Israel', age:8},{name: 'Enid', age:25},{name: 'Mary', age:17}]
 const adults = people.filter(person=>person.age>= 18)
 console.log(adults);
+
+const Numbers = [1,2,3,2,1,2,3,3,5,6,7]
+const nums = Numbers.filter((num,index,array)=>{
+    return array.indexOf(num)===index
+})
+console.log(nums);
+// The indexOf method returns the first apperance of an array.
+// quantum computing
+// deakaine university
